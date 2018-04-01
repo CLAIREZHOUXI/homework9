@@ -1,0 +1,19 @@
+1. Give an example, in your own words, when you might use an if statement in P5 (or Arduino).
+if (x < 1 * offset || x > 2 * offset) {
+      line(x, 10, x, offset);
+      line(x, height - offset, x, height - 10);
+    } else {
+      line(x, 10, x, height - 10);
+    }
+    
+2. Describe, in your own words, the role of the condition of a while or for loop.
+“condition” is the requirement of the function“loop” or “while”. This is the prerequisite.
+
+3. In the following code, what is printed for the final value of the variable z, after all the code runs?
+114
+
+4. Write code that produces the following canvas.
+function setup(){
+createCanvas(200,200);
+background(255);
+
