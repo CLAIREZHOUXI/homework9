@@ -13,7 +13,27 @@ if (x < 1 * offset || x > 2 * offset) {
 114
 
 4. Write code that produces the following canvas.
+
 function setup(){
 createCanvas(200,200);
 background(255);
 
+function setup() {
+  createCanvas(200, 200);
+  background(245);
+  
+for (var i =10; i <= 90; i = i+10) {
+  var startX = i;
+  var startY = 10;
+  var endX = i+100;
+  var endY = 100;
+  line(startX, startY, endX, endY);
+}
+  for (var a = 110; a <= 190; a = a + 10) {
+  var startX1 = a;
+  var startY1 = 100;
+  var endX1 = a-100;
+  var endY1 = 190;
+  line(startX1, startY1, endX1, endY1);
+}
+}
